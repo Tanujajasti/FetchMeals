@@ -19,20 +19,31 @@ A basic native iOS app that allows users to browse through a list of meals and d
 
 ## Project Breakdown
 FetchMealsApp.swift - Entry point for the application.
+
 URLSessionProtocol.swift - Defines protocols related to network requests.
 
+### View Files
 MealsView.swift - Defines the view for displaying the list of meals.
+
 RecipeView.swift - This view is responsible for displaying the details of a selected meal.
 
+### ViewModel Files
 MealsViewModel.swift - View model that handles the logic for fetching meal data from the API.
+
 RecipeViewModel.swift - Similar to MealsViewModel, but focused on individual recipes.
 
+### Model Files
 MealsModel.swift - Defines the data model for a meal.
+
 RecipeModel.swift - Defines the data model for a recipe i.e. Meal details.
 
+### Test Target Files
 MockURLSession.swift - A mock version of URLSession used for testing.
+
 MealsViewModelTests.swift - Unit tests for MealsViewModel. 
+
 RecipeViewModelTests.swift - Unit tests for RecipeViewModel. 
+
 MealsIntegrationTests.swift - Tests that focus on the integration of different components in the meals feature. 
 
 
