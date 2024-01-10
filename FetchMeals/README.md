@@ -17,7 +17,7 @@ A basic native iOS app that allows users to browse through a list of meals and d
 - Includes tests
 
 
-##Project Breakdown
+## Project Breakdown
 FetchMealsApp.swift - Entry point for the application.
 URLSessionProtocol.swift - Defines protocols related to network requests.
 
@@ -37,11 +37,11 @@ MealsIntegrationTests.swift - Tests that focus on the integration of different c
 
 
 ## Usage
-###IPhone
+### IPhone
 - When you launch the app, a list of Dessert names are displayed in a list.
 - Tap on the Dessert you find interesting
 - You will now be displayed a beautiful image of the dessert, ingredients with measure and detailed instruction on how to make it.
-###IPad
+### IPad
 - Tap on the list icon on the top-left corner
 - You will see a list of dessert names
 - Tap on the Dessert you find interesting
