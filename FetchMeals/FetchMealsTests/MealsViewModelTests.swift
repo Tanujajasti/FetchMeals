@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import FetchMeals // Replace with your actual project name
+@testable import FetchMeals
 
 class MealsViewModelTests: XCTestCase {
     var viewModel: MealsViewModel!
